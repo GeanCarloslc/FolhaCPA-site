@@ -1,0 +1,56 @@
+/**Palhetas de cores
+    background-color: #F5F7FA;
+    background-color: #5BE7C4
+    background-color: #50C1E9;
+    background-color: #7A57D1;
+*/
+
+.logo {
+    width: 225px;
+}
+
+.background-fundo{
+    background-color: #F5F7FA;
+}
+
+#home {
+	background: #F5F7FA;
+
+}
+
+.conteudo {
+    background-color: ;
+}
+
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #50C1E9;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+.celular1 {
+	margin-left: 100px;
+
+}
+.img-fundo{
+    background: url();
+    
+}
+
+.nav-link {
+    font-size: 18px;
+    
+}
+
+#rodape {
+    background-color: #F5F7FA;
+/*  background-color: #5BE7C4
+    background-color: #50C1E9;
+    background-color: #7A57D1;
+*/
+}
+

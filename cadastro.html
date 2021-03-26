@@ -21,7 +21,7 @@
     <link rel="Icon" href="img/logo-folhacpa.png"> <!-- Icone logo -->
 </head>
 
-<body>
+<body id="home">
     <!-- inicio Cabecalho -->
     <header>
 
@@ -40,17 +40,13 @@
                 <div class="collapse navbar-collapse" id="nav-principal">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="" class="nav-link">Home</a>
+                            <a href="index.html" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link">Recursos</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link">Benefícios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="cadastro.html" class="btn btn-outline-info ml-4 mt-1">Cadastrar
-                            </a>
                         </li>
                         <li class="nav-item">
                             <a href="login.html" class="btn btn-outline-success ml-2 mt-1">Login</a>
@@ -64,90 +60,73 @@
     <!--/fim Cabecalho -->
 
     <!--/Início seção saiba -->
-    <section id="home" class="caixa img-fundo">
+    <section id="cadastro" class="caixa img-fundo">
 
         <div class="container">
+
             <div class="row">
-                <div class="col-md-4 d-flex">
+
+                <div class="col-md-6">
                     <div class="align-self-center">
-                        <h1 class="display-1">FolhaCPA</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae corporis quidem
-                            distinctio facilis, qui, modi magni vel rerum culpa laborum incidunt provident in error quos
-                            iusto! Quam saepe provident vel?
+
+                        <h2 class="display-4">Olá!</h2>
+                        <h2 class="display-4">Seja bem-vindo ao FolhaCPA</h2>
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laboriosam soluta totam necessitatibus tempore ratione sunt, 
+                            impedit quidem odio molestiae earum praesentium, officiis assumenda consequuntur deserunt dolor debitis amet ad?
                         </p>
+
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="row celular1">
-                        <div class="col-md-6 ">
-                            <img src="img/iphone1.png" class="w-75">
-                        </div>
-                        <div class="col-md-6">
-                            <img src="img/iphone2.png" class="w-75">
-                        </div>
+
+                <div id="backgroud-cadastro" class="col-md-6 rounded border">
+
+                    <div class="align-self-center">
+                        <h3 class="mb-4 mt-3">Cadastrar-se</h3>
+                        <form class="pl-3">
+
+                            <div class="form-group">
+                                <label for="">Nome completo</label>
+                                <div class="input-group mb-2 w-75">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="far fa-user"></i></div>
+                                    </div>
+                                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Digite seu nome completo">
+                                </div>
+                            </div>
+                            
+
+                            <div class="form-group">
+                                <label class="" for="">E-mail</label>
+                                <div class="input-group mb-2 w-75">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="far fa-envelope"></i></div>
+                                    </div>
+                                <input type="email " class="form-control" id="" aria-describedby="emailHelp"
+                                    placeholder="Digite seu e-mail">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="" for="">Senha</label>
+                                <div class="input-group mb-2 w-50">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                                    </div>
+                                <input type="password" class="form-control" id="" placeholder="Digite sua senha">
+                                </div>
+                            </div>
+                            
+                            <button type="submit"
+                                class="pl-5 pr-5 mb-5 mt-5 btn btn-info d-block float-right">Cadastrar</button>
+                        </form>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
     <!--/FIM seção saiba -->
-    <!--/Início seção juros -->
-    <section class="caixa conteudo">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="" class="img-fluid">
-                </div>
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h2>Saiba o que o usuário pensa sobre seu produto</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis assumenda sunt quaerat
-                            inventore repellendus maxime esse.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/FIM seção juros -->
-
-    <section class="caixa conteudo">
-        <!--/Início seção recursos -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="" class="img-fluid">
-                    <h4>Fácil de usar</h4>
-                    <p>
-                        O FolhaCPA foi desenvolvido para ser o mais intuitivo possível
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <img src="" class="img-fluid">
-                    <h4>Saiba aonde melhorar</h4>
-                    <p>
-                        Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que
-                        realmente importa pra você!
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <img src="" class="img-fluid">
-                    <h4>Suporte amigo</h4>
-                    <p>
-                        Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus
-                        problemas e deixar sua vida bem mais fácil!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/FIM seção recursos -->
-
-
 
 
     <footer id="rodape" class="p-4">

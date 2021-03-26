@@ -5,6 +5,22 @@
     background-color: #7A57D1;
 */
 
+/*******Tipografia*********/
+
+label {
+
+    font-family: math;
+    font-size: large;
+}
+
+h3 {
+    font-family: math;
+    
+}
+
+
+
+
 .logo {
     width: 225px;
 }
@@ -54,3 +70,28 @@ footer p a {
 */
 }
 
+/*******Login*********/
+
+html, #home, #cadastro {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+#backgroud-login {
+    background-color:rgb(211, 249, 239, 0.9);
+    
+}
+
+/*******Cadastro*********/
+
+.img-cadastro {
+    width: 300px;
+}
+
+#backgroud-cadastro{
+    background-color:rgb(211, 249, 239, 0.9);
+
+    
+    
+    
+}

@@ -16,6 +16,7 @@ label {
 h3 {
     font-family: math;
     
+    
 }
 
 
@@ -23,6 +24,7 @@ h3 {
 
 .logo {
     width: 225px;
+
 }
 
 .background-fundo{
@@ -35,7 +37,7 @@ h3 {
 }
 
 .conteudo {
-    background-color: ;
+
 }
 
 
@@ -78,7 +80,7 @@ html, #home, #cadastro {
 }
 
 #backgroud-login {
-    background-color:rgb(211, 249, 239, 0.9);
+    background-color:rgb(211, 249, 239, 0.6);
     
 }
 
@@ -89,7 +91,7 @@ html, #home, #cadastro {
 }
 
 #backgroud-cadastro{
-    background-color:rgb(211, 249, 239, 0.9);
+    background-color:rgb(211, 249, 239, 0.6);
 
     
     
